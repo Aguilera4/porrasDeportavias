@@ -5,5 +5,5 @@ language: node_js
 before_install:
   - npm install -g mocha
   - npm install .     
-  
-script: ./node_modules/.bin/mocha test_mocha.js
+
+script: chmod 0777 ./node_modules/.bin/mocha test_mocha.js
