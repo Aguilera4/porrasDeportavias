@@ -30,7 +30,6 @@ apuesta = require(__dirname+"/Apuesta.js");
             });
         });
 
-
         describe('VerEquipos2', function(){
             it('should show team correctly', function(){
                 var nueva_apuesta2 = new apuesta.Apuesta('Madrid','Betis','5-1');
