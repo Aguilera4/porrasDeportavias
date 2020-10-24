@@ -1,0 +1,28 @@
+{
+  "name": "porrasDeportavias",
+  "version": "1.0.0",
+  "description": "Este repositorio contiene la aplicación utilizado para los ejercicios del Tema 2 de la asignatura Cloud Computing 2020-2021.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aguilera4/porrasDeportavias.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aguilera4/porrasDeportavias/issues"
+  },
+  "homepage": "https://github.com/Aguilera4/porrasDeportavias#readme",
+  "devDependencies": {
+    "docco": "^0.8.0",
+    "grunt-docco": "^0.5.0",
+    "mocha": "^8.2.0"
+  },
+  "dependencies": {
+    "core-util-is": "^1.0.2"
+  }
+}
