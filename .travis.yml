@@ -6,4 +6,4 @@ before_install:
   - npm install -g mocha
   - npm install .     
 
-script: ./node_modules/.bin/mocha test_mocha
+script: ./node_modules/.bin/mocha test_mocha.js
