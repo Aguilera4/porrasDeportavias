@@ -29,7 +29,6 @@ apuesta = require(__dirname+"/Apuesta.js");
                 assert.equal(nueva_apuesta2.as_string(), "Equipo local: Madrid vs Equipo visitante: Betis, Resultado: 5-1","Creado");
             });
         });
-
         
         describe('VerEquipos2', function(){
             it('should show team correctly', function(){
