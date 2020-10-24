@@ -11,4 +11,5 @@ assert(nueva_apuesta2, "Creada apuesta");
 assert.equal(nueva_apuesta2.as_string(), "Equipo local: Madrid vs Equipo visitante: Betis, Resultado: 5-1","Creado 2");
 assert.equal(nueva_apuesta2.ver_equipos_local_visitante(), "El equipo local es Madrid y el equipo visitante es Betis","Comprueba distintos 2");
 
+
 console.log("Si has llegado aquí, han pasado todos los tests");
